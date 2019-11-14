@@ -1,0 +1,25 @@
+body {
+    margin: 0; 
+    height: 100vh; 
+
+}
+
+.app {
+    height: 75vh; 
+
+    display: grid; 
+    grid-template-columns: repeat(16, 1fr); 
+    grid-template-rows: repeat(16, 1fr); 
+}
+
+.app > div {
+    overflow: hidden; 
+
+    border: 1px solid #000; 
+    font-size: 4px; 
+}
+
+.SUPERMAN {
+    background: url(SUPERMAN.jpg); 
+    background-size: cover;
+}
